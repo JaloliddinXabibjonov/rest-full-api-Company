@@ -17,6 +17,6 @@ public class Department {
     @Column(nullable = false)
     private String name;
 
-    @OneToOne
+    @ManyToOne
     private Company company;
 }
